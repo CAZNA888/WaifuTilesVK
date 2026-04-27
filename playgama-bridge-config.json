@@ -1,0 +1,1 @@
+{"$schema":"https://bridge.playgama.com/v1.27.0/schema.json","advertisement":{"interstitial":{"preloadOnStart":true},"rewarded":{"preloadOnStart":true},"useBuiltInErrorPopup":true,"backfillId":""},"payments":[{"id":"1","playgama":{"amount":49}},{"id":"2","playgama":{"amount":99}},{"id":"4","playgama":{"amount":15}}],"leaderboards":[{"id":"bucks"}],"sendAnalyticsEvents":true}
