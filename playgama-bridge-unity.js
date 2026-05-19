@@ -135,14 +135,14 @@ function initializeBridge() {
             bridge.platform.on('pause_state_changed', isPaused => sendMessageToUnity('OnPauseStateChanged', isPaused.toString()))
 
             let unityLoader = document.createElement('script')
-            unityLoader.src = 'Build/puzzleVk.loader.js'
+            unityLoader.src = 'Build/7a2dbded24d57e056180125b1583e7c4.loader.js'
             unityLoader.onload = () => {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/puzzleVk.data.unityweb',
-                        frameworkUrl: 'Build/puzzleVk.framework.js.unityweb',
-                        codeUrl: 'Build/puzzleVk.wasm.unityweb',
+                        dataUrl: 'Build/53bf519bc054ead157cca6e4931de8c7.data.br',
+                        frameworkUrl: 'Build/3c924ac000dbbf6372852f9d912a8d42.framework.js.br',
+                        codeUrl: 'Build/5acaa82ac1881b7c57d2cc278b0099d7.wasm.br',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'DefaultCompany',
                         productName: 'SwapSwap',
